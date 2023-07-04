@@ -1,9 +1,7 @@
 import { GetInTouchButton, NewsletterButton } from '@/components/buttons'
 import Ribbon from '@/components/ribbon'
 import TechStack from '@/components/techStack'
-
 import Image from 'next/image'
-
 
 export default function Home() {
   return (
@@ -25,7 +23,7 @@ export default function Home() {
           </div>
         </div>
         <div className='w-1/2 pt-[100px] pl-60'>
-          <Image src="/myself.jpg" alt='' width={400} height={400} />
+          <Image src="/MyPhoto.jpg" alt='' width={400} height={400} />
         </div>
       </div>
       <Ribbon />
