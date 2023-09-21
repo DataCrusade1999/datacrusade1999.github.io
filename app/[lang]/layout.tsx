@@ -68,7 +68,7 @@ export default async function RootLayout({
 }) {
   const global = await getGlobal();
   // TODO: CREATE A CUSTOM ERROR PAGE
-  if (!global.data) return null;
+  if (!global.data) return <div>this is an error page</div>;
 
   const { footer } = global.data.attributes;
 
