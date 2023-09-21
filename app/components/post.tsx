@@ -53,8 +53,8 @@ export default function Post({ data }: { data: Article }) {
       )}
       <div className="space-y-6">
         <h1 className="leading-tight text-5xl font-bold">{title}</h1>
-        <div className="flex flex-col items-start justify-between w-full 
-        sm:flex-row 
+        <div className="flex flex-col items-start justify-between w-full
+        sm:flex-row
         tablet:items-center">
           <div className="flex items-center tablet:space-x-2">
             {authorImgUrl && (

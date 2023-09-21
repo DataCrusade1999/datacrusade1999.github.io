@@ -9,7 +9,7 @@ interface GradientProps {
 
 
 /**
- * 
+ *
  * Description: Displays a link with gradient text this is not a complicated component
  * it just a wrapper around next/link.
  * @param LinkText: React.ReactNode

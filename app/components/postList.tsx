@@ -53,9 +53,9 @@ export default function PostList({
 }) {
   return (
     <section className="container p-6 mx-auto space-y-6 sm:space-y-12">
-      <div className="grid justify-center grid-cols-1 gap-6 
+      <div className="grid justify-center grid-cols-1 gap-6
       mobile-sm:max-mobile-sm:grid-rows-3 mobile-sm:max-mobile-sm:w-full
-      sm:grid-cols-2 
+      sm:grid-cols-2
       laptop:grid-cols-3">
         {articles.map((article) => {
           const imageUrl = getStrapiMedia(
@@ -74,12 +74,12 @@ export default function PostList({
               href={`blogs/${category.slug}/${article.attributes.slug}`}
               key={article.id}
               className="
-              max-w-sm mx-auto group 
-              hover:no-underline 
-              focus:no-underline 
-              dark:bg-gray-900 
-              laptop:w-[300px] 
-              xl:min-w-[375px] 
+              max-w-sm mx-auto group
+              hover:no-underline
+              focus:no-underline
+              dark:bg-gray-900
+              laptop:w-[300px]
+              xl:min-w-[375px]
               rounded-2xl overflow-hidden shadow-lg"
             >
               {imageUrl && (

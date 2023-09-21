@@ -33,7 +33,7 @@ export default function about() {
                     Outside of the world of programming, I am also a quizzer and was the lead at my
                     college&#39;s Quiz Club. Having played a lot of CS in my childhood and college, I also
                     love following the CS:GO esports scene. I enjoy using mechanical keyboards and lurk r/mk
-                    pretty much daily. I enjoy just about all genres of music and <Link className="font-extrabold 
+                    pretty much daily. I enjoy just about all genres of music and <Link className="font-extrabold
                     bg-gradient-to-r from-fuchsia-400 via-red-500 to-orange-400 bg-clip-text text-transparent"
                         href="/podcasts">podcasts</Link> and I&#39;m always
                     looking for more ways to consume information from around the world.

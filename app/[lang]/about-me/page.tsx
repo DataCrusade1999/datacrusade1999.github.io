@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 export default function about() {
     return (
         <div className="
-        mobile-sm:max-mobile-sm:flex-col 
-        mobile-md:max-mobile-md:flex-col 
-        mobile-lg:max-mobile-lg:flex-col 
+        mobile-sm:max-mobile-sm:flex-col
+        mobile-md:max-mobile-md:flex-col
+        mobile-lg:max-mobile-lg:flex-col
         tablet:max-tablet:flex-col
         laptop:flex flex-row items-center space-y-3
         ">
@@ -46,7 +46,7 @@ export default function about() {
                     Outside of the world of programming, I am also a quizzer and was the lead at my
                     college&#39;s Quiz Club. Having played a lot of CS in my childhood and college, I also
                     love following the CS:GO esports scene. I enjoy using mechanical keyboards and lurk r/mk
-                    pretty much daily. I enjoy just about all genres of music and <Link className="font-extrabold 
+                    pretty much daily. I enjoy just about all genres of music and <Link className="font-extrabold
                     bg-gradient-to-r from-fuchsia-400 via-red-500 to-orange-400 bg-clip-text text-transparent"
                         href="/podcasts">podcasts</Link> and I&#39;m always
                     looking for more ways to consume information from around the world. <Gradient LinkData={{
